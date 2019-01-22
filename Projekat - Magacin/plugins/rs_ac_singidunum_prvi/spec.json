@@ -1,0 +1,9 @@
+{
+    "symbolic_name": "ac.rs.singidunum.prvi",
+    "name": "Ime plugina",
+    "size": 25.2,
+    "category": "kategorija 1",
+    "version": "1.0.0",
+    "enabled": true,
+    "description": "Kratki opis"
+}

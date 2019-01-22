@@ -1,0 +1,9 @@
+{
+    "symbolic_name": "rs.ac.singidunum.imenik",
+    "name": "Imenik Univerziteta",
+    "size": 25.2,
+    "category": "Imenik",
+    "version": "1.0.0",
+    "enabled": true,
+    "description": "Imenik sa mogucnoscu dodavanja, izmene i brisanja kontakata."
+}
