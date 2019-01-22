@@ -7,11 +7,7 @@ Omogućiti vođenje proizvoda unutar magacina po halama. Hale mogu biti za čuva
 - rashladne hale (1°C do 18°C), :snowman:
 - hale za zamrzavanje (-10°C do 0°C). :snowflake:
 
-<p style="text-align: justify">Svaka hala ima i podatak o raspoloživosti (ukupan broj mesta i broj zauzetih mesta).Magacin može imati proizvoljan broj hala (hale istog ili različitog tipa). U hale se smeštaju proizvodi. Svaki proizvod je opisan nazivom, rokom upotrebe, temperaturom na kojoj
-se čuva. Prilikom smeštanja proizvoda, mora se odabrati hala koja odgovara temperaturi
-čuvanja tog proizvoda i proveriti da li hala ima dovoljno mesta za smeštanje. Korisnik unosi
-proizvod koji želi da smesti u halu i količinu tog proizvoda. Sami proizvodi se posebno dodaju (u
-bazu ili tekstualnu datoteku).Proizvodi se mogu i uklanjati iz hale tako što se odabere prvo hala, a zatim i proizvod i njegova količina za uklanjanje. Prilikom izmena hala, čuvati promene u bazi
+<p style="text-align: justify">Svaka hala ima i podatak o raspoloživosti (ukupan broj mesta i broj zauzetih mesta). Magacin može imati proizvoljan broj hala (hale istog ili različitog tipa). U hale se smeštaju proizvodi. Svaki proizvod je opisan nazivom, rokom upotrebe, temperaturom na kojoj se čuva. Prilikom smeštanja proizvoda, mora se odabrati hala koja odgovara temperaturi čuvanja tog proizvoda i proveriti da li hala ima dovoljno mesta za smeštanje. Korisnik unosi proizvod koji želi da smesti u halu i količinu tog proizvoda. Sami proizvodi se posebno dodaju (u bazu ili tekstualnu datoteku). Proizvodi se mogu i uklanjati iz hale tako što se odabere prvo hala, a zatim i proizvod i njegova količina za uklanjanje. Prilikom izmena hala, čuvati promene u bazi
 ili datoteci.</p>
 
 ## Funkcionalni zahtevi:
