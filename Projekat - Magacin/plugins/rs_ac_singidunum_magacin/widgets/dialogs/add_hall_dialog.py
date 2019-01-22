@@ -91,7 +91,7 @@ class AddHallDialog(QtWidgets.QDialog):
         conn = sqlite3.connect('plugins\\rs_ac_singidunum_magacin\\db\\warehouse.db')
         c = conn.cursor()
         for i in  c.execute('SELECT seq FROM sqlite_sequence WHERE name = "halls"'):
-            number = int(str(i).replace("('"," ").replace("',)"," "))
+            number = int(str(i).replace("(","").replace(",)","").replace("('","").replace("',)",""))
         conn.commit()
         conn.close() 
 
