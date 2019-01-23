@@ -90,7 +90,7 @@ class ItemService:
         """
         conn = sqlite3.connect('plugins\\rs_ac_singidunum_magacin\\db\\warehouse.db')
         c = conn.cursor()
-        c.execute('DELETE FROM items WHERE name = ? and expiration_date = ?', (item.name,item.expiration_date)) 
+        c.execute('DELETE FROM items WHERE name = ? and temperature = ? and expiration_date = ?', (item.name,item.temperature,item.expiration_date)) 
         c.execute('UPDATE halls SET places_filled = places_filled - ? WHERE hall_id = ?', (item.item_count, item.hall_id)) 
         conn.commit()
         conn.close()
